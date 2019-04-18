@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>
+MAIN FORM HTML SOURCE CODE
+</title>
+</head>
+<body>
+<blockquote>
+<pre>
+<code>
+"
+&lt!DOCTYPE html&gt
+&lthtml&gt
+&lthead&gt
+&ltmeta name="viewport" content="width=device-width, initial-scale=1"&gt
+&ltlink rel="stylesheet" href="css\project.css"&gt
+&ltlink rel="shortcut icon" href="res\html5.png"&gt
+
+&lt/head&gt
+&ltbody bgcolor="black"&gt
+
+&lth1 align="center"&gtCUSTOM ~ EDITOR&lt/h1&gt
+
+&ltnav class="topnav" style="width:100%;height:44px;"&gt
+	&ltul&gt
+		&ltli&gt	&lta href="html.html" target="_blank"&gtHTML    &lt/a&gt |   &lt/li&gt
+  		&ltli&gt	&lta href="css.html" target="_blank"&gtCSS      &lt/a&gt |	  &lt/li&gt
+  		&ltli&gt	&lta href="js.html" target="_blank"&gtJAVASCRIPT&lt/a&gt |	  &lt/li&gt
+  		&ltli&gt	&lta href="php.html" target="_blank"&gtPHP&lt/a&gt	  &lt/li&gt
+  	&lt/ul&gt
+&lt/nav&gt
+
+
+
+&ltimg src="res\DEnd.gif" align="left" height="150px" width="150px"&gt
+
+
+
+&ltdiv class="container"&gt
+  &ltform action="/project.php"&gt
+  	&ltfieldset&gt
+  	&ltlegend&gtDESIGN WEB&lt/legend&gt
+    &ltdiv class="row"&gt
+      &ltdiv class="col-25"&gt
+        &ltlabel for="name"&gtWHAT DO YOU WANT TO NAME YOUR WEBPAGE?&lt/label&gt
+      &lt/div&gt
+      &ltdiv class="col-75"&gt
+        &ltinput type="text" id="name" name="tname" placeholder="Name.."&gt
+      &lt/div&gt
+    &lt/div&gt
+    &ltdiv class="row"&gt
+      &ltdiv class="col-25"&gt
+        &ltlabel for="head"&gtGIVE THE HEADING FOR THE WEBPAGE&lt/label&gt
+      &lt/div&gt
+      &ltdiv class="col-75"&gt
+        &ltinput type="text" id="head" name="head" placeholder="Head.."&gt
+      &lt/div&gt
+    &lt/div&gt
+	&ltdiv class="row"&gt
+      &ltdiv class="col-25"&gt
+        &ltlabel for="head_size"&gtHEAD SIZE&lt/label&gt&ltbr&gt&ltlabel for="head_style"&gtHEAD STYLE&lt/label&gt&ltbr&gt&ltlabel for="head_color"&gtHEAD COLOUR&lt/label&gt
+      &lt/div&gt
+      &ltdiv class="col-75"&gt
+        &ltinput type="number" id="head_size" name="head_size" &gt&ltbr&gt&ltbr&gt&ltinput type="text" id="head_style" name="head_style" &gt&ltbr&gt&ltbr&gt&ltinput type="color" id="head_color" name="head_color" &gt
+      &lt/div&gt
+    &lt/div&gt
+    &ltdiv class="row"&gt
+      &ltdiv class="col-25"&gt
+        &ltlabel for="bgcolor"&gtCHOOSE THE BACKGROUND COLOUR&lt/label&gt
+      &lt/div&gt
+      &ltdiv class="col-75"&gt
+        &ltinput type="color" id="bg" name="bgcolor" &gt
+      &lt/div&gt
+    &lt/div&gt
+    
+&ltdiv class="row"&gt
+      &ltdiv class="col-25"&gt
+        &ltlabel for="para"&gtTYPE IN ANY NUMBER OF PARAGRAPHS&lt/label&gt
+      &lt/div&gt
+      &ltdiv class="col-75"&gt
+        &lttextarea id="para" name="para" placeholder="Use | to indicate the end of paragraph.." style="height:200px"&gt&lt/textarea&gt
+      &lt/div&gt
+    &lt/div&gt
+
+&ltdiv class="row"&gt
+      &ltdiv class="col-25"&gt
+        &ltlabel for="size"&gtGIVE THE TEXT SIZE&lt/label&gt
+      &lt/div&gt
+      &ltdiv class="col-75"&gt
+        &ltinput type="number" id="size" name="size" &gt
+      &lt/div&gt
+    &lt/div&gt
+
+&ltdiv class="row"&gt
+      &ltdiv class="col-25"&gt
+        &ltlabel for="color"&gtCHOOSE THE TEXT COLOUR&lt/label&gt
+      &lt/div&gt
+      &ltdiv class="col-75"&gt
+        &ltinput type="color" id="color" name="color" &gt
+      &lt/div&gt
+    &lt/div&gt
+    &ltdiv class="row"&gt
+      &ltdiv class="col-25"&gt
+        &ltlabel for="style"&gtSTYLE YOUR WEBPAGE&lt/label&gt
+      &lt/div&gt
+      &ltdiv class="col-75"&gt
+        &ltinput type="text" id="style" name="style" &gt
+      &lt/div&gt
+    &lt/div&gt
+    
+    &ltdiv class="row"&gt
+      &ltdiv class="col-25"&gt
+        &ltlabel for="img_file"&gtCHOOSE AN IMAGE FILE&lt/label&gt
+      &lt/div&gt
+      &ltdiv class="col-75"&gt
+        &ltinput type="file" id="img_file" name="img_file" &gt
+      &lt/div&gt
+    &lt/div&gt
+    &ltdiv class="row"&gt
+      &ltdiv class="col-25"&gt
+        &ltlabel for="img_height"&gtCHOOSE THE HEIGHT OF YOUR IMAGE&lt/label&gt
+      &lt/div&gt
+      &ltdiv class="col-75"&gt
+        &ltinput type="number" id="img_height" name="img_height" &gt
+      &lt/div&gt
+    &lt/div&gt
+    &ltdiv class="row"&gt
+      &ltdiv class="col-25"&gt
+        &ltlabel for="img_width"&gtCHOOSE THE WIDTH OF YOUR IMAGE&lt/label&gt
+      &lt/div&gt
+      &ltdiv class="col-75"&gt
+        &ltinput type="number" id="img_width" name="img_width" &gt
+      &lt/div&gt
+    &lt/div&gt
+	&ltdiv class="row"&gt
+      &ltdiv class="col-25"&gt
+        &ltlabel for="code"&gtADD ANY HTML CODE YOU WANT TO DISPLAY IN ADDITION&lt/label&gt
+      &lt/div&gt
+      &ltdiv class="col-75"&gt
+        &lttextarea placeholder="write your code here" name="code" id="code"&gt&lt/textarea&gt
+      &lt/div&gt
+    &lt/div&gt
+	
+
+      &ltdiv&gt
+        &ltinput type="reset" class="res" align="left" value="Reset"&gt
+      &lt/div&gt
+    &ltdiv class="row"&gt
+      &ltinput type="submit" value="Submit"&gt
+    &lt/div&gt
+    &lt/fieldset&gt
+      
+  &lt/form&gt
+&lt/div&gt
+&lt/body&gt
+&lt/html&gt
+"
+</code>
+</pre>
+</blockquote>
+</body>
+</html>
+
+

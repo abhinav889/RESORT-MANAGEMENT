@@ -1,0 +1,119 @@
+ * {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Bangers;
+    src:url(res\Bangers-Regular.ttf);
+    font-family: Kaushan;
+    src:url(res\KaushanScript-Regular.otf);
+}    
+h1 {
+    font-family:Bangers;
+    color: #FA8719;
+    font-size:100px;
+    font-weight:bolder;
+    text-transform:capitalize;
+    text-decoration:blink;
+}
+.topnav
+{
+    background-color: #c7c9cd;
+    word-spacing: 45px;
+    font-size: 20px;
+    display:table;
+
+}
+.topnav ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+.topnav ul li
+{
+    display: inline;
+}
+.topnav a:hover
+{
+    color: white;
+}
+body {
+    background-image: url("back3.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+    
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: #8A2BE2;
+    font-family: calibri;
+    font-weight: bold;
+}
+input[type=submit] {
+    background-color: #15349a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+input[type=reset] {
+    background-color: #15349a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+input[type=color]: {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.container {
+    border-radius: 5px;
+    background-color: #cef26e;
+    padding: 20px;
+    color: #000000;
+    border:5px solid yellow;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+legend{
+	font-family:cursive;
+	font-size: 25px;
+	color:red;
+}
